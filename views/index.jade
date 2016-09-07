@@ -1,6 +1,4 @@
-html
-	head
-		title Express Training
-	body
-		form(action="/", method="POST")
-			input(type="submit", value="Send")
+extends ./layout.jade
+block mycontent
+	h1 Welcome to MainPage
+	a(href="/login") Login
